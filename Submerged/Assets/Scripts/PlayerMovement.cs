@@ -11,7 +11,7 @@ public enum MovementState
     Jump
 }
 
-public class Player : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D playerBody;
     private Vector2 playerPos;
