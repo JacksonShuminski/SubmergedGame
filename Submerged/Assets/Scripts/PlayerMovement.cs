@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D playerBody;
     private Vector2 playerPos;
+    private Animator animator;
     public float speed;
     public Vector2 moveAmount = Vector2.zero;
     public MovementState currentMovState;
@@ -23,7 +24,9 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerBody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         currentMovState = MovementState.Idle;
+        animator.SetInteger("State", 0);
     }
 
     // Update is called once per frame
@@ -50,6 +53,22 @@ public class PlayerMovement : MonoBehaviour
         }
 
         moveAmount = moveAmount.normalized * speed;
+
+        //Animation state machine
+        switch (currentMovState)
+        {
+            case MovementState.Idle:
+                animator.SetInteger("State", 0);
+                break;
+
+            case MovementState.Right: //Will add left later
+                animator.SetInteger("State", 1);
+                break;
+
+            case MovementState.Jump:
+                animator.SetInteger("State", 2);
+                break;
+        }
 
     }
 
