@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerBody;
     private Vector2 playerPos;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
     public float speed;
     public Vector2 moveAmount = Vector2.zero;
     public MovementState currentMovState;
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         playerBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         currentMovState = MovementState.Idle;
         animator.SetInteger("State", 0);
     }
@@ -32,12 +34,12 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             currentMovState = MovementState.Left;
             moveAmount.x -= 1;
         }
-        else if(Input.GetKeyDown(KeyCode.S))
+        else if(Input.GetKey(KeyCode.D))
         {
             currentMovState = MovementState.Right;
             moveAmount.x += 1;
@@ -63,6 +65,18 @@ public class PlayerMovement : MonoBehaviour
 
             case MovementState.Right: //Will add left later
                 animator.SetInteger("State", 1);
+                if (spriteRenderer.flipX)
+                {
+                    spriteRenderer.flipX = false;
+                }
+                break;
+
+            case MovementState.Left: //Will add left later
+                animator.SetInteger("State", 1);
+                if (!spriteRenderer.flipX)
+                {
+                    spriteRenderer.flipX = true;
+                }
                 break;
 
             case MovementState.Jump:
