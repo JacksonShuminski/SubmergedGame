@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
             currentMovState = MovementState.Right;
             moveAmount.x += 1;
         }
-        else if (Input.GetKey(KeyCode.Space))
+        else if (Input.GetKey(KeyCode.Space)) //Should not need to be held down in the future
         {
             currentMovState = MovementState.Jump;
             moveAmount.y += 1;
