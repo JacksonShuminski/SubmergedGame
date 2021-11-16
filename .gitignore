@@ -39,3 +39,11 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.log
+
+#Wwise files
+*.cache
+*.akd
+*.prof
+*.wsetting
+*.validationcache
+*.wem
