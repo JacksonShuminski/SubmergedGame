@@ -17,7 +17,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 playerPos;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private float moveInput;
+    
     public float speed;
+    public float jumpForce;
     public Vector2 moveAmount = Vector2.zero;
     public MovementState currentMovState;
 
@@ -88,6 +91,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
+        //Handles movement
+        moveInput = Input.GetAxisRaw("Horizontal");
+        playerBody.velocity = new Vector2(moveInput * speed, playerBody.velocity.y);
+
+        if (Mathf.Approximately(playerBody.velocity.x, 0.0f))
+            animator.SetFloat("Speed", 0.0f);
+
+        else
+            animator.SetFloat("Speed", playerBody.velocity.x);
     }
 }
