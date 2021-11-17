@@ -239,6 +239,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9176416526200625491, guid: ba26ed9742565344f803cdc7432dc59b, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9176416526200625493, guid: ba26ed9742565344f803cdc7432dc59b, type: 3}
       propertyPath: m_RootOrder
       value: 1

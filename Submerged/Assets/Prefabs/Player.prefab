@@ -273,7 +273,7 @@ MonoBehaviour:
   checkRadius: 0.11
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!50 &9176416526200625488
 Rigidbody2D:
   serializedVersion: 4
