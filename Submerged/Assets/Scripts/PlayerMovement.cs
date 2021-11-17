@@ -24,6 +24,12 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 moveAmount = Vector2.zero;
     public MovementState currentMovState;
 
+    //Jumping
+    private bool isGrounded;
+    public Transform groundCheck;
+    public float checkRadius;
+    public LayerMask whatIsGround;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,21 +46,25 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             currentMovState = MovementState.Left;
-            moveAmount.x -= 1;
         }
         else if(Input.GetKey(KeyCode.D))
         {
             currentMovState = MovementState.Right;
-            moveAmount.x += 1;
         }
-        else if (Input.GetKey(KeyCode.Space)) //Should not need to be held down in the future
+        else if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             currentMovState = MovementState.Jump;
-            moveAmount.y += 1;
+            playerBody.velocity = Vector2.up * jumpForce;
         }
+        
         else
         {
             currentMovState = MovementState.Idle;
+        }
+
+        if (!isGrounded)
+        {
+            currentMovState = MovementState.Jump;
         }
 
         moveAmount = moveAmount.normalized * speed;
@@ -91,6 +101,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //Check if grounded
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+
         //Handles movement
         moveInput = Input.GetAxisRaw("Horizontal");
         playerBody.velocity = new Vector2(moveInput * speed, playerBody.velocity.y);
