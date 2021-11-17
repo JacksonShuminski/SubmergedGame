@@ -43,7 +43,9 @@ public class Hook : MonoBehaviour
         rope.right = toMouse;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, toMouse);
         //Debug.DrawLine(transform.position, toMouse);
-        if (hit.collider != null)
+
+        //Player can only grapple to certian objects
+        if (hit.collider != null && hit.collider.gameObject.tag == "Grapple")
         {
             pullpoint = hit.point;
             hooked = true;
