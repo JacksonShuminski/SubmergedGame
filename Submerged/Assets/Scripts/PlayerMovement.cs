@@ -110,8 +110,8 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
         //Handles movement
-        moveInput = Input.GetAxisRaw("Horizontal");
-        float delta = 0;
+        moveInput = Input.GetAxis("Horizontal");
+        /*float delta = 0;
         if (moveInput > 0)
         {
             delta = Mathf.Max(0, Time.deltaTime * acceleration * (speed - playerBody.velocity.x));
@@ -121,7 +121,8 @@ public class PlayerMovement : MonoBehaviour
             delta = Mathf.Min(0, Time.deltaTime * acceleration * (-speed - playerBody.velocity.x));
         }
         Vector2 walkDelta = new Vector2(delta, 0);
-        playerBody.velocity = playerBody.velocity + walkDelta;
+        playerBody.velocity = playerBody.velocity + walkDelta;*/
+        playerBody.velocity = new Vector2(moveInput * speed, playerBody.velocity.y);
 
         //if (Mathf.Approximately(playerBody.velocity.x, 0.0f))
         //  animator.SetFloat("Speed", 0.0f);
