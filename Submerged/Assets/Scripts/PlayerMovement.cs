@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
+    public float friction;
     public LayerMask whatIsGround;
 
     // Start is called before the first frame update
@@ -99,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
 
             case MovementState.Jump:
                 animator.SetInteger("State", 2);
+                spriteRenderer.flipX = (playerBody.velocity.x < 0);
                 break;
         }
 
@@ -111,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
 
         //Handles movement
         moveInput = Input.GetAxis("Horizontal");
-        /*float delta = 0;
+        float delta = 0;
         if (moveInput > 0)
         {
             delta = Mathf.Max(0, Time.deltaTime * acceleration * (speed - playerBody.velocity.x));
@@ -121,9 +123,13 @@ public class PlayerMovement : MonoBehaviour
             delta = Mathf.Min(0, Time.deltaTime * acceleration * (-speed - playerBody.velocity.x));
         }
         Vector2 walkDelta = new Vector2(delta, 0);
-        playerBody.velocity = playerBody.velocity + walkDelta;*/
-        playerBody.velocity = new Vector2(moveInput * speed, playerBody.velocity.y);
 
+        playerBody.velocity = playerBody.velocity + walkDelta;
+
+        if (!isGrounded)
+            playerBody.velocity = playerBody.velocity * (1 - Time.deltaTime * friction);
+        else
+            playerBody.velocity = playerBody.velocity * (1 - Time.deltaTime * friction * 5);
         //if (Mathf.Approximately(playerBody.velocity.x, 0.0f))
         //  animator.SetFloat("Speed", 0.0f);
 
