@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CEB714FD-208B-4CC9-8FA4-585B030F4FD8}" SchemaVersion="103">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CEB714FD-208B-4CC9-8FA4-585B030F4FD8}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Submerged" ID="{FCA855E6-1436-41D3-B4D3-233F9C272FC1}">
+					<ObjectList>
+						<ObjectRef Name="Level1" ID="{D26C28AC-51F3-43A6-93C1-609EEBD1CB12}" WorkUnitID="{191469BF-AB90-4BF3-A1C7-0FE431ECB450}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

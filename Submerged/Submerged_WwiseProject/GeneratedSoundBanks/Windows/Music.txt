@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4058101365	GameStart			\Default Work Unit\GameStart	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	961255530	Title	D:\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\Title_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameMusic\Title\Title		7761664
+
