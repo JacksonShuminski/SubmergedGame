@@ -1,8 +1,6 @@
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
 Assets/AssetStoreTools*
 
 *.log
@@ -38,3 +36,12 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.log
+
+#Wwise files
+*.cache
+*.akd
+*.prof
+*.wsetting
+*.validationcache
+*.wem
