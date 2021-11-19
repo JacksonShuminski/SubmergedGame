@@ -5,7 +5,6 @@ using UnityEngine;
 public class PathObject : MonoBehaviour
 {
     public Transform[] nodes;
-    public float radius;
     public float speed;
     public int current;
 
