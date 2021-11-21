@@ -4,7 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{5D0B20E7-186C-4918-BFF1-12CA44E80BA0}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Submerged" ID="{38912AB9-9FC8-40CA-9415-D64DAFDC28C8}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Level1" ID="{525A4F56-AC16-4F2E-AF06-73E22156D7E6}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

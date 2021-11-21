@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd878cae4db7de43b4686ccf24030ca, type: 3}
+  m_Name: 38912AB9-9FC8-40CA-9415-D64DAFDC28C8
+  m_EditorClassIdentifier: 
+  objectName: Submerged
+  id: 2530502021
+  guid: 38912AB9-9FC8-40CA-9415-D64DAFDC28C8
