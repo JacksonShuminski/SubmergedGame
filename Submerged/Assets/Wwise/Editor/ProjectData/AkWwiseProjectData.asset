@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: e7200b5d6c181849bff112ca44e80ba0
     GuidInternal: 
-    m_lastTime: -8585640791963834469
-    List: []
+    m_lastTime: -8585640786190827125
+    List:
+    - name: Submerged
+      guid: b92a9138c89fca409415d64dafdc28c8
+      id: 2530502021
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7200b5d6c181849bff112ca44e80ba0
+      - ElementName: Submerged
+        ObjectType: 7
+        guid: b92a9138c89fca409415d64dafdc28c8
+      Path: SoundBanks\Default Work Unit\Submerged
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 800944d06f7bab43bcedec958f208c35
     GuidInternal: 
-    m_lastTime: -8585640791963964449
-    List: []
+    m_lastTime: -8585640787984594307
+    List:
+    - name: Level1
+      guid: 564f5a5216ac2e4faf0673e22156d7e6
+      id: 2678230382
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 800944d06f7bab43bcedec958f208c35
+      - ElementName: Level1
+        ObjectType: 3
+        guid: 564f5a5216ac2e4faf0673e22156d7e6
+      Path: Events\Default Work Unit\Level1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
