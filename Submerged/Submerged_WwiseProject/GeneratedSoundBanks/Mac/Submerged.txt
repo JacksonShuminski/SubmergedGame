@@ -2,5 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2678230382	Level1			\Default Work Unit\Level1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1069449337	Level1	D:\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\Level1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level1\Level1\Level1		8467264
+	337480534	Level3	D:\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\Level3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Levels\Level3\Level3		12277504
+	897585219	Level2	D:\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\Level2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Levels\Level2\Level2		10054864
+	1069449337	Level1	D:\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\Level1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Levels\Level1\Level1		8467264
 
