@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2530502021" Language="SFX" Hash="3603682095">
+		<SoundBank Id="2530502021" Language="SFX" Hash="2490453401">
 			<ObjectPath>\SoundBanks\Default Work Unit\Submerged</ObjectPath>
 			<ShortName>Submerged</ShortName>
 			<Path>Submerged.bnk</Path>

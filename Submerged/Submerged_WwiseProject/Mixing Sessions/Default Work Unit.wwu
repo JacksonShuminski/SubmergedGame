@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2DEFAF16-2020-4C46-9637-DBE1C6035BD6}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{2DEFAF16-2020-4C46-9637-DBE1C6035BD6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2DEFAF16-2020-4C46-9637-DBE1C6035BD6}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Submerged" ID="{A72D9D9B-BBD3-4CDC-B65D-FFDBA503E5B9}">
+					<ObjectList>
+						<ObjectRef Name="GameOver" ID="{1460AB71-B156-4778-B592-702F45385EB2}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="Title" ID="{E71DED27-8E1B-4570-BF35-BE3FB06EF991}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="Victory" ID="{334C3898-6EA3-4BC6-B600-A5DEB2CA8F5B}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="Levels" ID="{A282F76D-F1AC-4BC2-A1AA-EDD8141B9041}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>
