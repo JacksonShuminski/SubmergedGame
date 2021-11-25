@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ZachScene.unity
     guid: 6248aeede6c775d459ce20f1c2b1d97c
+  - enabled: 1
+    path: Assets/Scenes/TempTitle.unity
+    guid: 2e45e879008913c4981efe187d7ff070
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 4d0b01e05d12ad64db7b0f8d6b3962ab
+  - enabled: 1
+    path: Assets/Scenes/TempGameWin.unity
+    guid: 8d522259e894a6e438443cf2a0f97c3a
+  - enabled: 1
+    path: Assets/Scenes/TempGameOver.unity
+    guid: 4de5fc71750ba5b4b8a7650941b39e82
   m_configObjects: {}

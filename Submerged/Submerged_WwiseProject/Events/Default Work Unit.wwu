@@ -5,15 +5,11 @@
 			<ChildrenList>
 				<Event Name="Level1" ID="{525A4F56-AC16-4F2E-AF06-73E22156D7E6}">
 					<ChildrenList>
-						<Action Name="" ID="{92433522-9A39-43A6-9A47-672D2439095F}" ShortID="918997011">
+						<Action Name="" ID="{25E1A082-D73D-40BE-9DA1-40EAEC327087}" ShortID="592794238">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="ActionType" Type="int16" Value="3"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Title" ID="{E71DED27-8E1B-4570-BF35-BE3FB06EF991}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</Action>
 						<Action Name="" ID="{135163D8-CBD7-4BFE-A81F-2D0338BD0423}" ShortID="418047623">
 							<ReferenceList>
@@ -47,7 +43,7 @@
 				</Event>
 				<Event Name="Title" ID="{86F10D65-AB2E-4DAE-9072-1FC191E6F6F7}">
 					<ChildrenList>
-						<Action Name="" ID="{6BF32E32-6313-456D-9A02-C1E4C3D5BFA2}" ShortID="645105036">
+						<Action Name="" ID="{C53CE047-7D5F-4AB8-B03F-6A3D09FE7B34}" ShortID="1025883225">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
 							</PropertyList>
