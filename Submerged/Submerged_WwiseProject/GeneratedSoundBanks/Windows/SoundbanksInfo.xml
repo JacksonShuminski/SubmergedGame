@@ -11,37 +11,48 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="913992036">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2530502021" Language="SFX" Hash="710767447">
+		<SoundBank Id="2530502021" Language="SFX" Hash="4150955493">
 			<ObjectPath>\SoundBanks\Default Work Unit\Submerged</ObjectPath>
 			<ShortName>Submerged</ShortName>
 			<Path>Submerged.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\GameOver" DurationType="OneShot" DurationMin="2.400000" DurationMax="2.400000">
+				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\GameOver" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\ActualGame\Defeat"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1776280627" Name="GameWin" ObjectPath="\Events\Default Work Unit\GameWin" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\ActualGame\Victory"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2678230382" Name="Level1" ObjectPath="\Events\Default Work Unit\Level1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\ActualGame\Level_1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3705726509" Name="Title" ObjectPath="\Events\Default Work Unit\Title" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="89550918" Language="SFX">
+							<ShortName>Title.wav</ShortName>
+							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="337480534" Language="SFX">
+							<ShortName>Level3.wav</ShortName>
+							<Path>SFX\Level3_D79FB2B7.wem</Path>
+						</File>
 						<File Id="512179721" Language="SFX">
 							<ShortName>GameOver.wav</ShortName>
 							<Path>SFX\GameOver_D79FB2B7.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1776280627" Name="GameWin" ObjectPath="\Events\Default Work Unit\GameWin" DurationType="OneShot" DurationMin="9.000000" DurationMax="9.000000">
-					<IncludedMemoryFiles>
 						<File Id="552997455" Language="SFX">
 							<ShortName>VictoryTheme.wav</ShortName>
 							<Path>SFX\VictoryTheme_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2678230382" Name="Level1" ObjectPath="\Events\Default Work Unit\Level1" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="337480534" Language="SFX">
-							<ShortName>Level3.wav</ShortName>
-							<Path>SFX\Level3_D79FB2B7.wem</Path>
 						</File>
 						<File Id="897585219" Language="SFX">
 							<ShortName>Level2.wav</ShortName>
@@ -52,16 +63,68 @@
 							<Path>SFX\Level1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3705726509" Name="Title" ObjectPath="\Events\Default Work Unit\Title" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="89550918" Language="SFX">
-							<ShortName>Title.wav</ShortName>
-							<Path>SFX\Title_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}">
+							<Media>
+								<File Id="512179721"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EDD53010-19AD-40D5-AE54-69A22DB135BB}">
+							<Media>
+								<File Id="1069449337"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F9F0D31B-C701-447F-8353-12E6663C2444}">
+							<Media>
+								<File Id="897585219"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2C37923A-5780-459B-944C-F85472AAC496}">
+							<Media>
+								<File Id="337480534"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F453551F-3F7A-45CF-A8D5-E22EFF029288}">
+							<Media>
+								<File Id="89550918"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}">
+							<Media>
+								<File Id="552997455"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3705726509" Name="Title" ObjectPath="\States\Default Work Unit\ActualGame\Title"/>
+					</ActionSetState>
 				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\ActualGame\Level_1" GUID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\ActualGame\Defeat" GUID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\ActualGame\Victory" GUID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3442759021" Name="ActualGame" ObjectPath="\States\Default Work Unit\ActualGame" GUID="{ECAF848B-9BBC-457E-B9E0-CBB20F8554F3}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ActualGame\None" GUID="{E7C572AE-7EA8-42D4-AB45-C115928329AC}"/>
+						<State Id="3705726509" Name="Title" ObjectPath="\States\Default Work Unit\ActualGame\Title" GUID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}"/>
+						<State Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\ActualGame\Level_1" GUID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}"/>
+						<State Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\ActualGame\Level_2" GUID="{F9F0D31B-C701-447F-8353-12E6663C2444}"/>
+						<State Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\ActualGame\Level_3" GUID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\ActualGame\Victory" GUID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
+						<State Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\ActualGame\Defeat" GUID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3705726509" Name="Title" ObjectPath="\States\Default Work Unit\ActualGame\Title" GUID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

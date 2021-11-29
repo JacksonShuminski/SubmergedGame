@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 800944d06f7bab43bcedec958f208c35
     GuidInternal: 
-    m_lastTime: -8585637504188186275
+    m_lastTime: -8585633932458469585
     List:
     - name: GameOver
       guid: ad7c941586a9a14e996945cc6d474d1c
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: ad7c941586a9a14e996945cc6d474d1c
       Path: Events\Default Work Unit\GameOver
       maxAttenuation: 0
-      maxDuration: 2.4
-      minDuration: 2.4
+      maxDuration: 0
+      minDuration: 0
     - name: GameWin
       guid: 20f31c8857248d40803ef646a2c1f0e4
       id: 1776280627
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 20f31c8857248d40803ef646a2c1f0e4
       Path: Events\Default Work Unit\GameWin
       maxAttenuation: 0
-      maxDuration: 9
-      minDuration: 9
+      maxDuration: 0
+      minDuration: 0
     - name: Level1
       guid: 564f5a5216ac2e4faf0673e22156d7e6
       id: 2678230382
@@ -145,8 +145,8 @@ MonoBehaviour:
         guid: 564f5a5216ac2e4faf0673e22156d7e6
       Path: Events\Default Work Unit\Level1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Title
       guid: 650df1862eabae4d90721fc191e6f6f7
       id: 3705726509
@@ -190,8 +190,138 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 637bfdae97cb624e95d195d062c0e01e
     GuidInternal: 
-    m_lastTime: -8585640791963854717
-    List: []
+    m_lastTime: -8585634640409203437
+    List:
+    - name: ActualGame
+      guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+      id: 3442759021
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 637bfdae97cb624e95d195d062c0e01e
+      - ElementName: ActualGame
+        ObjectType: 9
+        guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+      Path: States\Default Work Unit\ActualGame
+      values:
+      - name: Defeat
+        guid: dd3b68823c37924d8eba1a0ad9dd377d
+        id: 1593864692
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: Defeat
+          ObjectType: 8
+          guid: dd3b68823c37924d8eba1a0ad9dd377d
+      - name: Level_1
+        guid: 1030d5edad19d540ae5469a22db135bb
+        id: 1290008369
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: Level_1
+          ObjectType: 8
+          guid: 1030d5edad19d540ae5469a22db135bb
+      - name: Level_2
+        guid: 1bd3f0f901c77f44835312e6663c2444
+        id: 1290008370
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: Level_2
+          ObjectType: 8
+          guid: 1bd3f0f901c77f44835312e6663c2444
+      - name: Level_3
+        guid: 3a92372c80579b45944cf85472aac496
+        id: 1290008371
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: Level_3
+          ObjectType: 8
+          guid: 3a92372c80579b45944cf85472aac496
+      - name: None
+        guid: ae72c5e7a87ed442ab45c115928329ac
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: None
+          ObjectType: 8
+          guid: ae72c5e7a87ed442ab45c115928329ac
+      - name: Title
+        guid: 1f5553f47a3fcf45a8d5e22eff029288
+        id: 3705726509
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: Title
+          ObjectType: 8
+          guid: 1f5553f47a3fcf45a8d5e22eff029288
+      - name: Victory
+        guid: 44cda7a4dc0e5e4ea3b5b03dde2ea8d7
+        id: 2716678721
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: Victory
+          ObjectType: 8
+          guid: 44cda7a4dc0e5e4ea3b5b03dde2ea8d7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -204,7 +334,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 134bd367ee9a7f49806f7b327a97d366
     GuidInternal: 
-    m_lastTime: -8585640791963934529
+    m_lastTime: -8585634633909658056
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu

@@ -1,3 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3442759021	ActualGame			\Default Work Unit\ActualGame	
+
+State	ID	Name	State Group			Notes
+	748895195	None	ActualGame			
+	1290008369	Level_1	ActualGame			
+	1290008370	Level_2	ActualGame			
+	1290008371	Level_3	ActualGame			
+	1593864692	Defeat	ActualGame			
+	2716678721	Victory	ActualGame			
+	3705726509	Title	ActualGame			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

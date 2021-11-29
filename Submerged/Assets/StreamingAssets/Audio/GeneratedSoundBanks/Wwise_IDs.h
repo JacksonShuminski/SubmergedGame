@@ -19,6 +19,39 @@ namespace AK
         static const AkUniqueID TITLE = 3705726509U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace ACTUALGAME
+        {
+            static const AkUniqueID GROUP = 3442759021U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DEFEAT = 1593864692U;
+                static const AkUniqueID LEVEL_1 = 1290008369U;
+                static const AkUniqueID LEVEL_2 = 1290008370U;
+                static const AkUniqueID LEVEL_3 = 1290008371U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TITLE = 3705726509U;
+                static const AkUniqueID VICTORY = 2716678721U;
+            } // namespace STATE
+        } // namespace ACTUALGAME
+
+    } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace GAME
+        {
+            static const AkUniqueID GROUP = 702482391U;
+
+            namespace SWITCH
+            {
+            } // namespace SWITCH
+        } // namespace GAME
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

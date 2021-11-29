@@ -45,11 +45,15 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{187A73B9-2E0B-44D7-B2C6-95404D9F46E0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{248C9D48-4505-43AC-B745-262D84BE55C3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{334C3898-6EA3-4BC6-B600-A5DEB2CA8F5B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{51FA1E7E-D1FF-434A-B2F4-6A8FE9675911}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{A282F76D-F1AC-4BC2-A1AA-EDD8141B9041}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{BE0ABBE6-4FF9-4EE3-AFE9-7160BE588261}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{D158257E-B5B6-4B38-9418-C3B462F64E85}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{E71DED27-8E1B-4570-BF35-BE3FB06EF991}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{ECF6B5D7-0B05-4275-85BC-7BD7A814C2DF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
