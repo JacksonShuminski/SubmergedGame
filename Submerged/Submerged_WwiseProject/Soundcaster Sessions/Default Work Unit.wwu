@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Submerged" ID="{CADFD274-C1F8-4B43-A48A-9B4ABB60F445}">
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Level_1" ID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}"/>
+						<CurrentStateRef Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

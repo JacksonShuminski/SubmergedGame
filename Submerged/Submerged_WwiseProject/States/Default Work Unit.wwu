@@ -25,73 +25,73 @@
 						<Transition>
 							<StartState Name="Title" ID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}"/>
 							<EndState Name="Level_1" ID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Level_1" ID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}"/>
 							<EndState Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Level_1" ID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}"/>
 							<EndState Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="None" ID="{E7C572AE-7EA8-42D4-AB45-C115928329AC}"/>
 							<EndState Name="Title" ID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
 							<EndState Name="Level_2" ID="{F9F0D31B-C701-447F-8353-12E6663C2444}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Level_2" ID="{F9F0D31B-C701-447F-8353-12E6663C2444}"/>
 							<EndState Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Level_2" ID="{F9F0D31B-C701-447F-8353-12E6663C2444}"/>
 							<EndState Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
 							<EndState Name="Title" ID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
 							<EndState Name="Title" ID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
 							<EndState Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
 							<EndState Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
 							<EndState Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>
