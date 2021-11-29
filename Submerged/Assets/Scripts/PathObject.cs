@@ -20,7 +20,7 @@ public class PathObject : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 toNode = nodes[(current + 1) % nodes.Length].position - transform.position;
         toNode.z = 0;

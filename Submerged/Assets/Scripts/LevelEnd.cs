@@ -1,23 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelEnd : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject manager;
-    // Start is called before the first frame update
-    void Start()
+    public string newScene;
+    private AssetBundle loadedBundle;
+
+    private void Start()
     {
-        
+        //loadedBundle = AssetBundle.LoadFromFile(newScene);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (player.GetComponent<BoxCollider2D>().IsTouching(this.GetComponent<BoxCollider2D>()))
+        if (collision.gameObject.tag == "Player")
         {
-            //use a manager to switch between scenes
+            SceneManager.LoadScene(newScene);
         }
     }
 }
