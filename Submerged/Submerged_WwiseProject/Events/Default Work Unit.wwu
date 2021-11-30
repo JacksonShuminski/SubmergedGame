@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Level1" ID="{525A4F56-AC16-4F2E-AF06-73E22156D7E6}">
+					<ChildrenList>
+						<Action Name="" ID="{A328FBAE-1252-4430-809D-648D48F9ED70}" ShortID="741486488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{652BF704-DDDF-4A3D-89EF-08895217C2F9}" ShortID="92820484">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D50C38E-289C-4DC8-B35E-8DAF8BDC911E}" ShortID="212678434">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_1" ID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}" WorkUnitID="{AEFD7B63-CB97-4E62-95D1-95D062C0E01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{978927F6-69F5-4D53-AB2A-EFF4593A2825}" ShortID="1024484365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameWin" ID="{881CF320-2457-408D-803E-F646A2C1F0E4}">
+					<ChildrenList>
+						<Action Name="" ID="{B935C3D4-5810-4BB5-87F8-7D6122DEC0B0}" ShortID="670021581">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2785C98C-FABD-4ECC-A188-DC066FCAE1FB}" ShortID="769802264">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{47A86B97-3366-4D3C-BD33-CC10AB6021F4}" ShortID="65899589">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}" WorkUnitID="{AEFD7B63-CB97-4E62-95D1-95D062C0E01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{51F192E6-2D21-45F1-A73A-17399D39FFBA}" ShortID="449262184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Title" ID="{86F10D65-AB2E-4DAE-9072-1FC191E6F6F7}">
+					<ChildrenList>
+						<Action Name="" ID="{C53CE047-7D5F-4AB8-B03F-6A3D09FE7B34}" ShortID="1025883225">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{E9850D86-B775-4FB3-ABE1-5A3A523B0516}" ShortID="702918772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{58B7D2AE-3BA5-4037-99E5-40D94499A9E8}" ShortID="481522210">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Title" ID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}" WorkUnitID="{AEFD7B63-CB97-4E62-95D1-95D062C0E01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameOver" ID="{15947CAD-A986-4EA1-9969-45CC6D474D1C}">
+					<ChildrenList>
+						<Action Name="" ID="{9CDC3BCF-D453-45D6-B5E9-47F173FE06D7}" ShortID="459647682">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A86769E8-4D23-4220-8F64-5EE00F1A6E9D}" ShortID="40612061">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A8E55490-DF3A-412F-ABC1-D7D93FD0478B}" ShortID="243005087">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}" WorkUnitID="{AEFD7B63-CB97-4E62-95D1-95D062C0E01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{551C11E8-DB53-44EE-A132-5D988AED630E}" ShortID="277187309">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
