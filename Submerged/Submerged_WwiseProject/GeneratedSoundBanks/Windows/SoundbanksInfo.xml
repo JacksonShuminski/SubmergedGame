@@ -16,27 +16,43 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2530502021" Language="SFX" Hash="4150955493">
+		<SoundBank Id="2530502021" Language="SFX" Hash="1326668843">
 			<ObjectPath>\SoundBanks\Default Work Unit\Submerged</ObjectPath>
 			<ShortName>Submerged</ShortName>
 			<Path>Submerged.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\GameOver" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\GameOver" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="89550918" Language="SFX">
+							<ShortName>Title.wav</ShortName>
+							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="337480534" Language="SFX">
+							<ShortName>Level3.wav</ShortName>
+							<Path>SFX\Level3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="512179721" Language="SFX">
+							<ShortName>GameOver.wav</ShortName>
+							<Path>SFX\GameOver_D79FB2B7.wem</Path>
+						</File>
+						<File Id="552997455" Language="SFX">
+							<ShortName>VictoryTheme.wav</ShortName>
+							<Path>SFX\VictoryTheme_D79FB2B7.wem</Path>
+						</File>
+						<File Id="897585219" Language="SFX">
+							<ShortName>Level2.wav</ShortName>
+							<Path>SFX\Level2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1069449337" Language="SFX">
+							<ShortName>Level1.wav</ShortName>
+							<Path>SFX\Level1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\ActualGame\Defeat"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1776280627" Name="GameWin" ObjectPath="\Events\Default Work Unit\GameWin" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\ActualGame\Victory"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2678230382" Name="Level1" ObjectPath="\Events\Default Work Unit\Level1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\ActualGame\Level_1"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3705726509" Name="Title" ObjectPath="\Events\Default Work Unit\Title" DurationType="Infinite">
+				<Event Id="1776280627" Name="GameWin" ObjectPath="\Events\Default Work Unit\GameWin" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="89550918" Language="SFX">
 							<ShortName>Title.wav</ShortName>
@@ -95,6 +111,68 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\ActualGame\Victory"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2678230382" Name="Level1" ObjectPath="\Events\Default Work Unit\Level1" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="89550918" Language="SFX">
+							<ShortName>Title.wav</ShortName>
+							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="337480534" Language="SFX">
+							<ShortName>Level3.wav</ShortName>
+							<Path>SFX\Level3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="512179721" Language="SFX">
+							<ShortName>GameOver.wav</ShortName>
+							<Path>SFX\GameOver_D79FB2B7.wem</Path>
+						</File>
+						<File Id="552997455" Language="SFX">
+							<ShortName>VictoryTheme.wav</ShortName>
+							<Path>SFX\VictoryTheme_D79FB2B7.wem</Path>
+						</File>
+						<File Id="897585219" Language="SFX">
+							<ShortName>Level2.wav</ShortName>
+							<Path>SFX\Level2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1069449337" Language="SFX">
+							<ShortName>Level1.wav</ShortName>
+							<Path>SFX\Level1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\ActualGame\Level_1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3705726509" Name="Title" ObjectPath="\Events\Default Work Unit\Title" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="89550918" Language="SFX">
+							<ShortName>Title.wav</ShortName>
+							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="337480534" Language="SFX">
+							<ShortName>Level3.wav</ShortName>
+							<Path>SFX\Level3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="512179721" Language="SFX">
+							<ShortName>GameOver.wav</ShortName>
+							<Path>SFX\GameOver_D79FB2B7.wem</Path>
+						</File>
+						<File Id="552997455" Language="SFX">
+							<ShortName>VictoryTheme.wav</ShortName>
+							<Path>SFX\VictoryTheme_D79FB2B7.wem</Path>
+						</File>
+						<File Id="897585219" Language="SFX">
+							<ShortName>Level2.wav</ShortName>
+							<Path>SFX\Level2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1069449337" Language="SFX">
+							<ShortName>Level1.wav</ShortName>
+							<Path>SFX\Level1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<ActionSetState>
 						<ActionSetStateEntry Id="3705726509" Name="Title" ObjectPath="\States\Default Work Unit\ActualGame\Title"/>
 					</ActionSetState>

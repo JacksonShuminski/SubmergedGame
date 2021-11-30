@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 800944d06f7bab43bcedec958f208c35
     GuidInternal: 
-    m_lastTime: -8585633932458469585
+    m_lastTime: -8585633657720056917
     List:
     - name: GameOver
       guid: ad7c941586a9a14e996945cc6d474d1c
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: ad7c941586a9a14e996945cc6d474d1c
       Path: Events\Default Work Unit\GameOver
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: GameWin
       guid: 20f31c8857248d40803ef646a2c1f0e4
       id: 1776280627
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 20f31c8857248d40803ef646a2c1f0e4
       Path: Events\Default Work Unit\GameWin
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Level1
       guid: 564f5a5216ac2e4faf0673e22156d7e6
       id: 2678230382
@@ -145,8 +145,8 @@ MonoBehaviour:
         guid: 564f5a5216ac2e4faf0673e22156d7e6
       Path: Events\Default Work Unit\Level1
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Title
       guid: 650df1862eabae4d90721fc191e6f6f7
       id: 3705726509
