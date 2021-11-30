@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Hook : MonoBehaviour
 {
-    public bool hooked = false;
+    private bool hooked = false;
     private Transform rope;
     private Camera main;
     private Vector2 pullpoint;
     private Rigidbody2D rb;
+    private Transform hookedTransform;
 
     public float speed;
 
@@ -47,7 +48,8 @@ public class Hook : MonoBehaviour
         //Player can only grapple to certian objects
         if (hit.collider != null && hit.collider.gameObject.tag == "Grapple")
         {
-            pullpoint = hit.point;
+            hookedTransform = hit.transform;
+            pullpoint = hit.point - (Vector2)hookedTransform.position;
             hooked = true;
         }
     }
@@ -61,8 +63,8 @@ public class Hook : MonoBehaviour
         }
         else
         {
-            Vector2 tohit = pullpoint - (Vector2)transform.position;
-            Debug.DrawLine(transform.position, pullpoint);
+            Vector2 tohit = (pullpoint + (Vector2)hookedTransform.position) - (Vector2)transform.position;
+            Debug.DrawLine(transform.position, pullpoint + (Vector2)hookedTransform.position);
             rope.right = tohit;
             rope.localScale = new Vector3(tohit.magnitude, 1, 1);
             tohit.Normalize();

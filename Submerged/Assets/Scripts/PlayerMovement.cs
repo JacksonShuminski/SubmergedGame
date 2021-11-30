@@ -48,18 +48,22 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D) && isGrounded)
         {
             currentMovState = MovementState.Idle;
+            moveInput = 0;
         }
         else if (Input.GetKey(KeyCode.A))
         {
             currentMovState = MovementState.Left;
+            moveInput = -1;
         }
         else if (Input.GetKey(KeyCode.D))
         {
             currentMovState = MovementState.Right;
+            moveInput = 1;
         }
         else
         {
             currentMovState = MovementState.Idle;
+            moveInput = 0;
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -112,7 +116,6 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
         //Handles movement
-        moveInput = Input.GetAxis("Horizontal");
         float delta = 0;
         if (moveInput > 0)
         {
@@ -125,11 +128,12 @@ public class PlayerMovement : MonoBehaviour
         Vector2 walkDelta = new Vector2(delta, 0);
 
         playerBody.velocity = playerBody.velocity + walkDelta;
+        playerBody.velocity = playerBody.velocity * (1 - Time.deltaTime * friction);
 
-        if (!isGrounded)
-            playerBody.velocity = playerBody.velocity * (1 - Time.deltaTime * friction);
-        else
-            playerBody.velocity = playerBody.velocity * (1 - Time.deltaTime * friction * 5);
+        if (isGrounded && moveInput == 0)
+        {
+            playerBody.velocity = playerBody.velocity - Vector2.right * playerBody.velocity.x;
+        }
         //if (Mathf.Approximately(playerBody.velocity.x, 0.0f))
         //  animator.SetFloat("Speed", 0.0f);
 
