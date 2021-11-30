@@ -360,7 +360,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7367099507170784026, guid: 477840445349fbc40a453a641a6d83be, type: 3}
       propertyPath: scene
-      value: TempTitle
+      value: Tutorial
       objectReference: {fileID: 0}
     - target: {fileID: 7367099507170784028, guid: 477840445349fbc40a453a641a6d83be, type: 3}
       propertyPath: m_Name
