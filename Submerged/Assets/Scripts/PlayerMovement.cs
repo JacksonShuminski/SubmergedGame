@@ -127,13 +127,19 @@ public class PlayerMovement : MonoBehaviour
         }
         Vector2 walkDelta = new Vector2(delta, 0);
 
-        playerBody.velocity = playerBody.velocity + walkDelta;
-        playerBody.velocity = playerBody.velocity * (1 - Time.deltaTime * friction);
-
-        if (isGrounded && moveInput == 0)
+        if (!isGrounded)
         {
-            playerBody.velocity = playerBody.velocity - Vector2.right * playerBody.velocity.x;
+            walkDelta *= 0.2f;
+            playerBody.velocity = playerBody.velocity + walkDelta;
         }
+        else
+        {
+            playerBody.velocity = playerBody.velocity + walkDelta;
+            playerBody.velocity = playerBody.velocity * (1 - Time.deltaTime * Mathf.Lerp(friction, 1, 0.8f));
+            if (moveInput == 0)
+                playerBody.velocity = playerBody.velocity - Vector2.right * playerBody.velocity.x;
+        }
+
         //if (Mathf.Approximately(playerBody.velocity.x, 0.0f))
         //  animator.SetFloat("Speed", 0.0f);
 
