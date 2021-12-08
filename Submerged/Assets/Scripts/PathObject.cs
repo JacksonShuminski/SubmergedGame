@@ -22,15 +22,18 @@ public class PathObject : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector3 toNode = nodes[(current + 1) % nodes.Length].position - transform.position;
-        toNode.z = 0;
-        if (toNode.magnitude > speed*Time.deltaTime)
+        if (nodes.Length > 0)
         {
-            transform.position += toNode.normalized * speed * Time.deltaTime;
-        }
-        else
-        {
-            current++;
+            Vector3 toNode = nodes[(current + 1) % nodes.Length].position - transform.position;
+            toNode.z = 0;
+            if (toNode.magnitude > speed * Time.deltaTime)
+            {
+                transform.position += toNode.normalized * speed * Time.deltaTime;
+            }
+            else
+            {
+                current++;
+            }
         }
     }
 }

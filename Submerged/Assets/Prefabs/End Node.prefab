@@ -96,7 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bdc3b5c80956bb4181f1b176d9a2e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: 
+  newScene: JacksonLevel02
+  wait: 2
 --- !u!61 &1532971530987579139
 BoxCollider2D:
   m_ObjectHideFlags: 0
