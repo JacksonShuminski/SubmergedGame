@@ -49,5 +49,6 @@ public class LevelEnd : MonoBehaviour
         string message = "Level Complete\nScore: " + score.ToString("n2");
         popUp.GetComponentInChildren<Text>().text = message;
         doneLevel = true;
+        AkSoundEngine.PostEvent("GameWin", gameObject);
     }
 }
