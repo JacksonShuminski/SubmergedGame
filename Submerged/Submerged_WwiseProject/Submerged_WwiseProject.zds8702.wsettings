@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{71ADEE5F-860C-4F25-A8A0-2C31636D9513}">
 			<PropertyList>
+				<Property Name="Event Action List\{46AD4E03-634C-4256-A2ED-E7967A74A70B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{525A4F56-AC16-4F2E-AF06-73E22156D7E6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{881CF320-2457-408D-803E-F646A2C1F0E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{88373AAA-5A83-4EE4-BFCE-B48EDE87FE9B}\x64_Expand States" Type="string" Value=""/>
@@ -25,7 +26,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="/oxvD13W4km76+KqG3nLcw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="uSqROMifykCUFdZNr9woyA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -37,6 +38,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{2D320745-0622-47E5-A391-455450AB7E6A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{719EDF5D-6F48-47B0-B937-541E96FF6C6A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>

@@ -4,9 +4,15 @@
 		<WorkUnit Name="Default Work Unit" ID="{8B84B915-C599-404A-A327-1D746291A559}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Submerged" ID="{CADFD274-C1F8-4B43-A48A-9B4ABB60F445}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
+						<CurrentStateRef Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

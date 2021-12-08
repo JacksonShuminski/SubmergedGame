@@ -3,7 +3,11 @@
 	<MixingSessions>
 		<WorkUnit Name="Default Work Unit" ID="{2DEFAF16-2020-4C46-9637-DBE1C6035BD6}" PersistMode="Standalone">
 			<ChildrenList>
-				<MixingSession Name="Submerged" ID="{A72D9D9B-BBD3-4CDC-B65D-FFDBA503E5B9}"/>
+				<MixingSession Name="Submerged" ID="{A72D9D9B-BBD3-4CDC-B65D-FFDBA503E5B9}">
+					<ObjectList>
+						<ObjectRef Name="Level3Playlist" ID="{BE0ABBE6-4FF9-4EE3-AFE9-7160BE588261}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>
