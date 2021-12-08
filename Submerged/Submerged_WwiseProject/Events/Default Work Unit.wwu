@@ -157,6 +157,90 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Level2" ID="{A295AFEA-1B78-4771-B8A0-E5A9250C386B}">
+					<ChildrenList>
+						<Action Name="" ID="{82C83F67-AA77-4282-9497-33481B613D4B}" ShortID="329091336">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{319038CA-82A1-4A79-B880-5BF4F6CDD4B5}" ShortID="302103337">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B786CE44-EA8D-4391-8FFB-1A35528F2424}" ShortID="494442064">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_2" ID="{F9F0D31B-C701-447F-8353-12E6663C2444}" WorkUnitID="{AEFD7B63-CB97-4E62-95D1-95D062C0E01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{59BD2B64-1848-44E3-991B-5037947572F2}" ShortID="750095148">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level3" ID="{46AD4E03-634C-4256-A2ED-E7967A74A70B}">
+					<ChildrenList>
+						<Action Name="" ID="{2D03538F-F8D1-424C-B6E5-BCDB2778EE96}" ShortID="1016146335">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{924BD591-A54D-4F9C-8D9D-7F4F7D3F61C0}" ShortID="219812186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{26E538CF-C5EE-478C-803D-3E0D54E5271D}" ShortID="844549230">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}" WorkUnitID="{AEFD7B63-CB97-4E62-95D1-95D062C0E01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DD2AF681-D75D-49F6-A010-BB243FEB5163}" ShortID="541409914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game" ID="{D158257E-B5B6-4B38-9418-C3B462F64E85}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

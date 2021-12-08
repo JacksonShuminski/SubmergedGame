@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID GAMEOVER = 4158285989U;
         static const AkUniqueID GAMEWIN = 1776280627U;
         static const AkUniqueID LEVEL1 = 2678230382U;
+        static const AkUniqueID LEVEL2 = 2678230381U;
+        static const AkUniqueID LEVEL3 = 2678230380U;
         static const AkUniqueID TITLE = 3705726509U;
     } // namespace EVENTS
 

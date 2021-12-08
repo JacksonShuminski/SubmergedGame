@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b96fd419751e54f42b1496973f693bca, type: 3}
-  m_Name: 881CF320-2457-408D-803E-F646A2C1F0E4
+  m_Name: A295AFEA-1B78-4771-B8A0-E5A9250C386B
   m_EditorClassIdentifier: 
-  objectName: GameWin
-  id: 1776280627
-  guid: 881CF320-2457-408D-803E-F646A2C1F0E4
+  objectName: Level2
+  id: 2678230381
+  guid: A295AFEA-1B78-4771-B8A0-E5A9250C386B
