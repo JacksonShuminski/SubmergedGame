@@ -11,6 +11,7 @@ Shader "Custom/UnderWater"
         _EndY ("End node Y", Int) = 0
         _StartX ("End node X", Int) = 0
         _StartY ("End node Y", Int) = 0
+        _LevelScale ("Scale of the lighting effects", Float) = 1
     }
     SubShader
     {
@@ -55,6 +56,7 @@ Shader "Custom/UnderWater"
             int _EndY;
             int _StartX;
             int _StartY;
+            float _LevelScale;
 
             float2 WaveyDisp(float2 vertex) 
             {
@@ -72,7 +74,7 @@ Shader "Custom/UnderWater"
                     float2 playerPos = float2(_PlayerVertexX, _MainTex_TexelSize.w - _PlayerVertexY);
                     float2 toPixel = vertex - playerPos;
                     float dist = length(toPixel);
-                    float radius = 100;
+                    float radius = 100 * _LevelScale;
                     float light = max(radius - dist, 0) / radius;
                     return light;
                 }
@@ -97,7 +99,7 @@ Shader "Custom/UnderWater"
 
                     float light = max(dot(toPixelNorm, toPointerNorm)-0.8, 0)*5;
 
-                    float distance = 600;
+                    float distance = 600 * _LevelScale;
                     light *= max(0, (distance - length(toPixel))/ distance);
                     return light;
 
@@ -115,7 +117,7 @@ Shader "Custom/UnderWater"
                 {
                     float2 toPixel = float2(vertex.x - x, vertex.y - (_MainTex_TexelSize.w - y));
                     float distance = length(toPixel);
-                    float radius = 100;
+                    float radius = 100 * _LevelScale;
                     float brightness = max(0, radius - distance) / radius;
                     return color * brightness;
                 }

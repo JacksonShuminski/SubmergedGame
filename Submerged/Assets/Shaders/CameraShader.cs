@@ -7,11 +7,13 @@ using UnityEngine;
 public class CameraShader : MonoBehaviour
 {
     public Material postMat;
+    public float lightingScale = 1;
     private Transform player;
     private Vector2 mouse;
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
+        postMat.SetFloat("_LevelScale", lightingScale);
         if (player != null)
         {
             Vector3 playerScreenPos = GetComponent<Camera>().WorldToScreenPoint(player.position);
