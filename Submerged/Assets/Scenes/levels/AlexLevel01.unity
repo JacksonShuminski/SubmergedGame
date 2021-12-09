@@ -652,7 +652,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 950723749604608336, guid: 2e20ca589d4cf534e9587c686cd56d83, type: 3}
   m_PrefabInstance: {fileID: 366615180}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1500034108
+--- !u!21 &1368217973
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1280,7 +1280,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 5.0990705
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1402,5 +1402,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564649bf98c675a4b96d2348d16c48f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  postMat: {fileID: 1500034108}
+  postMat: {fileID: 1368217973}
   lightingScale: 1
