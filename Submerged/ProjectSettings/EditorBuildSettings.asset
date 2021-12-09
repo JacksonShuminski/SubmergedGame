@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/levels/JacksonLevel02.unity
     guid: 5039592e98ec4764fbb1f5305dd55339
+  - enabled: 1
+    path: Assets/Scenes/levels/AlexLevel01.unity
+    guid: 72f25d029abe18d47bbf58b3abe98a49
+  - enabled: 1
+    path: Assets/Scenes/levels/AlexLevel02.unity
+    guid: 4a72d885a2a92ca4a8c18a649bfac0c9
   m_configObjects: {}
