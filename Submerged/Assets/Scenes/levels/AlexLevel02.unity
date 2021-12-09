@@ -274,7 +274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
---- !u!21 &149731345
+--- !u!21 &182392825
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -334,8 +334,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EndX: 837
-    - _EndY: 146
+    - _EndX: 616
+    - _EndY: 69
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -352,8 +352,8 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StartX: 24
-    - _StartY: 138
+    - _StartX: 253
+    - _StartY: 66
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564649bf98c675a4b96d2348d16c48f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  postMat: {fileID: 149731345}
+  postMat: {fileID: 182392825}
   lightingScale: 1
 --- !u!1001 &1084134773
 PrefabInstance:
