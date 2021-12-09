@@ -773,6 +773,128 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="FinalFanfare" ID="{B83B562B-3845-48CD-BC79-BA26DE57CA3B}" ShortID="6800316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5D26D172-B3C2-4857-B0C8-297263E7A211}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C6A1DE65-CC72-4CEA-9F9E-A615B57CD533}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="FinalFanfare" ID="{DC332BB1-8C05-43E6-9FF0-49D7FD05FC3F}" ShortID="897612981">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5D26D172-B3C2-4857-B0C8-297263E7A211}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C6A1DE65-CC72-4CEA-9F9E-A615B57CD533}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="FinalFanfare" ID="{C8E6A025-85B4-444B-946C-1639C9436EBB}" ShortID="274680524">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C6A1DE65-CC72-4CEA-9F9E-A615B57CD533}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FinalFanfare" ID="{03CF9571-B523-4540-86AE-7BB90560F40F}">
+													<Language>SFX</Language>
+													<AudioFile>FinalFanfare.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="219201972"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{97F92926-0531-4627-ABBA-03C08A2E1F7D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{EEC9AFBC-7D9A-4AB9-BF95-7BEFAFB10802}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FinalFanfare" ID="{D02914B1-3949-4529-A9D3-8364EDED6FE5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FinalFanfare" ID="{03CF9571-B523-4540-86AE-7BB90560F40F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{5E43C7ED-B42B-4847-9EDE-66C06D0ADD93}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{649644CD-7E6F-4AD6-ADFC-5756A2CCBE62}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{B29466D1-841A-4D0E-A9D8-C98ECCF33BB3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{621B4832-4DDF-46E0-88CB-2BE78CC09C47}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{FC7857B6-AABE-4639-83C5-74E8EB94D646}" ShortID="743299751">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{3FC6A732-91ED-4499-ABBB-B39D95EA03EB}" ShortID="502122022">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="FinalFanfare" ID="{DC332BB1-8C05-43E6-9FF0-49D7FD05FC3F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
@@ -796,6 +918,10 @@
 							<CustomState>
 								<StateRef Name="Title" ID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}"/>
 								<CustomState Name="" ID="{39C99AC6-C579-4175-B01B-C92CF520AE2D}" ShortID="667783189"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="FinalVictory" ID="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}"/>
+								<CustomState Name="" ID="{997BF91B-FB52-4201-9D80-9386515C95BB}" ShortID="682495495"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
@@ -871,6 +997,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="VictoryPlaylist" ID="{ECF6B5D7-0B05-4275-85BC-7BD7A814C2DF}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="FinalVictory" ID="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="FinalFanfare" ID="{B83B562B-3845-48CD-BC79-BA26DE57CA3B}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

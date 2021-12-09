@@ -68,10 +68,10 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PlayerVertex: 0
-    - _PlayerVertexX: 574
-    - _PlayerVertexY: 582
-    - _PointerX: 400
-    - _PointerY: 958
+    - _PlayerVertexX: 753
+    - _PlayerVertexY: 132
+    - _PointerX: 399
+    - _PointerY: 954
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

@@ -12,7 +12,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
+						<CurrentStateRef Name="FinalVictory" ID="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

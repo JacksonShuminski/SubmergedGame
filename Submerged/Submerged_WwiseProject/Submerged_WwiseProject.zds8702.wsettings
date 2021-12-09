@@ -8,6 +8,7 @@
 				<Property Name="Event Action List\{881CF320-2457-408D-803E-F646A2C1F0E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{88373AAA-5A83-4EE4-BFCE-B48EDE87FE9B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A295AFEA-1B78-4771-B8A0-E5A9250C386B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B00F8E95-2C38-4C4A-BDD7-BCD55D28826A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -28,6 +29,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="/oxvD13W4km76+KqG3nLcw=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="uSqROMifykCUFdZNr9woyA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{DC332BB1-8C05-43E6-9FF0-49D7FD05FC3F} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6uqqqqqKlVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
