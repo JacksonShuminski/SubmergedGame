@@ -1164,6 +1164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DangerousPathObject
       objectReference: {fileID: 0}
+    - target: {fileID: 6598695965075147796, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7310285848599983522, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: spawner
       value: 

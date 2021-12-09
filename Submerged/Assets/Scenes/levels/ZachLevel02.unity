@@ -429,7 +429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7459222801122072049, guid: eedbcb8f68c521e4db1fd1405326368c, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 7459222801122072049, guid: eedbcb8f68c521e4db1fd1405326368c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1016,7 +1016,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &730002127
 PrefabInstance:
@@ -1331,6 +1331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DangerousPathObject (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6598695965075147796, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7310285848599983522, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: spawner
       value: 
@@ -1595,6 +1599,10 @@ PrefabInstance:
     - target: {fileID: 6598695965075147796, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_Name
       value: DangerousPathObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598695965075147796, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7310285848599983522, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: spawner
@@ -2188,6 +2196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DangerousPathObject (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6598695965075147796, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7310285848599983522, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: spawner
       value: 
@@ -2399,7 +2411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1361107169961662656, guid: 9c6ac267f8b2cf64a8e96fe689bfec1f, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1361107169961662656, guid: 9c6ac267f8b2cf64a8e96fe689bfec1f, type: 3}
       propertyPath: m_AnchorMax.x
