@@ -11,21 +11,60 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="125600701">
+		<SoundBank Id="1355168291" Language="SFX" Hash="596365804">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2530502021" Language="SFX" Hash="3600490347">
+		<SoundBank Id="2530502021" Language="SFX" Hash="3366629497">
 			<ObjectPath>\SoundBanks\Default Work Unit\Submerged</ObjectPath>
 			<ShortName>Submerged</ShortName>
 			<Path>Submerged.bnk</Path>
 			<IncludedEvents>
+				<Event Id="302641207" Name="FinalVictory" ObjectPath="\Events\Default Work Unit\FinalVictory" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="89550918" Language="SFX">
+							<ShortName>Title.wav</ShortName>
+							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="219201972" Language="SFX">
+							<ShortName>FinalFanfare.wav</ShortName>
+							<Path>SFX\FinalFanfare_D79FB2B7.wem</Path>
+						</File>
+						<File Id="337480534" Language="SFX">
+							<ShortName>Level3.wav</ShortName>
+							<Path>SFX\Level3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="512179721" Language="SFX">
+							<ShortName>GameOver.wav</ShortName>
+							<Path>SFX\GameOver_D79FB2B7.wem</Path>
+						</File>
+						<File Id="552997455" Language="SFX">
+							<ShortName>VictoryTheme.wav</ShortName>
+							<Path>SFX\VictoryTheme_D79FB2B7.wem</Path>
+						</File>
+						<File Id="897585219" Language="SFX">
+							<ShortName>Level2.wav</ShortName>
+							<Path>SFX\Level2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1069449337" Language="SFX">
+							<ShortName>Level1.wav</ShortName>
+							<Path>SFX\Level1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="302641207" Name="FinalVictory" ObjectPath="\States\Default Work Unit\ActualGame\FinalVictory"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\GameOver" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="89550918" Language="SFX">
 							<ShortName>Title.wav</ShortName>
 							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="219201972" Language="SFX">
+							<ShortName>FinalFanfare.wav</ShortName>
+							<Path>SFX\FinalFanfare_D79FB2B7.wem</Path>
 						</File>
 						<File Id="337480534" Language="SFX">
 							<ShortName>Level3.wav</ShortName>
@@ -57,6 +96,10 @@
 						<File Id="89550918" Language="SFX">
 							<ShortName>Title.wav</ShortName>
 							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="219201972" Language="SFX">
+							<ShortName>FinalFanfare.wav</ShortName>
+							<Path>SFX\FinalFanfare_D79FB2B7.wem</Path>
 						</File>
 						<File Id="337480534" Language="SFX">
 							<ShortName>Level3.wav</ShortName>
@@ -110,6 +153,11 @@
 								<File Id="552997455"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}">
+							<Media>
+								<File Id="219201972"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\ActualGame\Victory"/>
@@ -120,6 +168,10 @@
 						<File Id="89550918" Language="SFX">
 							<ShortName>Title.wav</ShortName>
 							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="219201972" Language="SFX">
+							<ShortName>FinalFanfare.wav</ShortName>
+							<Path>SFX\FinalFanfare_D79FB2B7.wem</Path>
 						</File>
 						<File Id="337480534" Language="SFX">
 							<ShortName>Level3.wav</ShortName>
@@ -152,6 +204,10 @@
 							<ShortName>Title.wav</ShortName>
 							<Path>SFX\Title_D79FB2B7.wem</Path>
 						</File>
+						<File Id="219201972" Language="SFX">
+							<ShortName>FinalFanfare.wav</ShortName>
+							<Path>SFX\FinalFanfare_D79FB2B7.wem</Path>
+						</File>
 						<File Id="337480534" Language="SFX">
 							<ShortName>Level3.wav</ShortName>
 							<Path>SFX\Level3_D79FB2B7.wem</Path>
@@ -182,6 +238,10 @@
 						<File Id="89550918" Language="SFX">
 							<ShortName>Title.wav</ShortName>
 							<Path>SFX\Title_D79FB2B7.wem</Path>
+						</File>
+						<File Id="219201972" Language="SFX">
+							<ShortName>FinalFanfare.wav</ShortName>
+							<Path>SFX\FinalFanfare_D79FB2B7.wem</Path>
 						</File>
 						<File Id="337480534" Language="SFX">
 							<ShortName>Level3.wav</ShortName>
@@ -214,6 +274,10 @@
 							<ShortName>Title.wav</ShortName>
 							<Path>SFX\Title_D79FB2B7.wem</Path>
 						</File>
+						<File Id="219201972" Language="SFX">
+							<ShortName>FinalFanfare.wav</ShortName>
+							<Path>SFX\FinalFanfare_D79FB2B7.wem</Path>
+						</File>
 						<File Id="337480534" Language="SFX">
 							<ShortName>Level3.wav</ShortName>
 							<Path>SFX\Level3_D79FB2B7.wem</Path>
@@ -241,6 +305,9 @@
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
+				<StateGroup Id="302641207" Name="FinalVictory" ObjectPath="\States\Default Work Unit\ActualGame\FinalVictory" GUID="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\ActualGame\Level_1" GUID="{EDD53010-19AD-40D5-AE54-69A22DB135BB}">
 					<States/>
 				</StateGroup>
@@ -265,6 +332,7 @@
 						<State Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\ActualGame\Level_3" GUID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
 						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\ActualGame\Victory" GUID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
 						<State Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\ActualGame\Defeat" GUID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
+						<State Id="302641207" Name="FinalVictory" ObjectPath="\States\Default Work Unit\ActualGame\FinalVictory" GUID="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3705726509" Name="Title" ObjectPath="\States\Default Work Unit\ActualGame\Title" GUID="{F453551F-3F7A-45CF-A8D5-E22EFF029288}">

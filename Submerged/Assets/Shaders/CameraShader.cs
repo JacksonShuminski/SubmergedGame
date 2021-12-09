@@ -12,8 +12,6 @@ public class CameraShader : MonoBehaviour
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-
-
         if (player != null)
         {
             Vector3 playerScreenPos = GetComponent<Camera>().WorldToScreenPoint(player.position);
@@ -39,6 +37,7 @@ public class CameraShader : MonoBehaviour
     void Start()
     {
         mouse = Input.mousePosition;
+        postMat = new Material(postMat);
     }
 
     // Update is called once per frame
