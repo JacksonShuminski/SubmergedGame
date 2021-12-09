@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetInteger("State", 0);
                 break;
 
-            case MovementState.Right: //Will add left later
+            case MovementState.Right:
                 animator.SetInteger("State", 1);
                 if (spriteRenderer.flipX)
                 {
@@ -94,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
                 }
                 break;
 
-            case MovementState.Left: //Will add left later
+            case MovementState.Left:
                 animator.SetInteger("State", 1);
                 if (!spriteRenderer.flipX)
                 {

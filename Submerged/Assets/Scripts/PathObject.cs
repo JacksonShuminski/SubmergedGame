@@ -36,4 +36,24 @@ public class PathObject : MonoBehaviour
             }
         }
     }
+
+    /// <summary>
+    /// Checks if anything is colliding with the box. In this case if the player is on top of it.
+    /// </summary>
+    /// <param name="collision"></param>
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            collision.collider.transform.SetParent(transform);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.collider.transform.SetParent(null);
+        }
+    }
 }
