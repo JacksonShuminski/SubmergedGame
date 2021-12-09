@@ -10,7 +10,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>D:\Profiles\zds8702\Submerged\Submerged\Wwise</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../Submerged_WwiseProject/Submerged_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../Submerged/Submerged_WwiseProject/Submerged_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

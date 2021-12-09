@@ -199,8 +199,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21636626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4865, y: 0.5051, z: 37}
-  m_LocalScale: {x: 3.3970954, y: 5.5021205, z: 1}
+  m_LocalPosition: {x: 0.4865, y: 0.1683, z: 37}
+  m_LocalScale: {x: 3.3970954, y: 5.8531556, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
@@ -285,6 +285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DangerousPathObject (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6598695965075147796, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7310285848599983522, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: spawner
       value: 
@@ -299,7 +303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.4215546
+      value: 5.0949574
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalPosition.x
@@ -307,7 +311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2444
+      value: -2.5812
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -893,7 +897,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.6901217
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1194,7 +1198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1532971530987579138, guid: 09043578ad9f1aa468fd6ea2b402bb2d, type: 3}
       propertyPath: newScene
-      value: AlexLevel02
+      value: JacksonLevel04
       objectReference: {fileID: 0}
     - target: {fileID: 1532971530987579148, guid: 09043578ad9f1aa468fd6ea2b402bb2d, type: 3}
       propertyPath: m_Name
@@ -1405,6 +1409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DangerousPathObject
       objectReference: {fileID: 0}
+    - target: {fileID: 6598695965075147796, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7310285848599983522, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: spawner
       value: 
@@ -1419,7 +1427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.758238
+      value: 5.2074156
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1427,7 +1435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4125
+      value: -2.637
       objectReference: {fileID: 0}
     - target: {fileID: 7805290202952664913, guid: 40c96bd52f0884545bb0ed31826fb2ec, type: 3}
       propertyPath: m_LocalPosition.z
