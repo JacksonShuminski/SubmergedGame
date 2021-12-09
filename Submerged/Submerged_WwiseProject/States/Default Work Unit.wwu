@@ -20,6 +20,7 @@
 						<State Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
 						<State Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
 						<State Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
+						<State Name="FinalVictory" ID="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -91,6 +92,12 @@
 						<Transition>
 							<StartState Name="Level_3" ID="{2C37923A-5780-459B-944C-F85472AAC496}"/>
 							<EndState Name="Defeat" ID="{82683BDD-373C-4D92-8EBA-1A0AD9DD377D}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Victory" ID="{A4A7CD44-0EDC-4E5E-A3B5-B03DDE2EA8D7}"/>
+							<EndState Name="FinalVictory" ID="{851BDD3C-3BA6-4AED-8492-8FBC42DAABAF}"/>
 							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>

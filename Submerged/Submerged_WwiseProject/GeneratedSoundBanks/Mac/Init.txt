@@ -2,6 +2,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	3442759021	ActualGame			\Default Work Unit\ActualGame	
 
 State	ID	Name	State Group			Notes
+	302641207	FinalVictory	ActualGame			
 	748895195	None	ActualGame			
 	1290008369	Level_1	ActualGame			
 	1290008370	Level_2	ActualGame			

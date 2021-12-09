@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	302641207	FinalVictory			\Default Work Unit\FinalVictory	
 	1776280627	GameWin			\Default Work Unit\GameWin	
 	2678230380	Level3			\Default Work Unit\Level3	
 	2678230381	Level2			\Default Work Unit\Level2	
@@ -10,6 +11,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	3442759021	ActualGame			\Default Work Unit\ActualGame	
 
 State	ID	Name	State Group			Notes
+	302641207	FinalVictory	ActualGame			
 	748895195	None	ActualGame			
 	1290008369	Level_1	ActualGame			
 	1290008370	Level_2	ActualGame			
@@ -20,6 +22,7 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	89550918	Title	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\Title_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\TitlePlaylist\Title\Title		7761664
+	219201972	FinalFanfare	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\FinalFanfare_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\FinalFanfare\FinalFanfare\FinalFanfare		2116864
 	337480534	Level3	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\Level3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Level3Playlist\Level3\Level3		12277504
 	512179721	GameOver	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\GameOver_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\GameOverPlaylist\GameOver\GameOver		423424
 	552997455	VictoryTheme	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Mac\SFX\VictoryTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\VictoryPlaylist\VictoryTheme\VictoryTheme		1587664

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: e7200b5d6c181849bff112ca44e80ba0
     GuidInternal: 
-    m_lastTime: -8585626099141307904
+    m_lastTime: -8585625930630807117
     List:
     - name: Submerged
       guid: b92a9138c89fca409415d64dafdc28c8
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 800944d06f7bab43bcedec958f208c35
     GuidInternal: 
-    m_lastTime: -8585626099148139156
+    m_lastTime: -8585625930727688256
     List:
+    - name: FinalVictory
+      guid: 958e0fb0382c4a4cbdd7bcd55d28826a
+      id: 302641207
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 800944d06f7bab43bcedec958f208c35
+      - ElementName: FinalVictory
+        ObjectType: 3
+        guid: 958e0fb0382c4a4cbdd7bcd55d28826a
+      Path: Events\Default Work Unit\FinalVictory
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: GameOver
       guid: ad7c941586a9a14e996945cc6d474d1c
       id: 4158285989
@@ -224,7 +241,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 637bfdae97cb624e95d195d062c0e01e
     GuidInternal: 
-    m_lastTime: -8585627736892181399
+    m_lastTime: -8585625931298230850
     List:
     - name: ActualGame
       guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
@@ -257,6 +274,22 @@ MonoBehaviour:
         - ElementName: Defeat
           ObjectType: 8
           guid: dd3b68823c37924d8eba1a0ad9dd377d
+      - name: FinalVictory
+        guid: 3cdd1b85a63bed4a84928fbc42daabaf
+        id: 302641207
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 637bfdae97cb624e95d195d062c0e01e
+        - ElementName: ActualGame
+          ObjectType: 9
+          guid: 8b84afecbc9b7e45b9e0cbb20f8554f3
+        - ElementName: FinalVictory
+          ObjectType: 8
+          guid: 3cdd1b85a63bed4a84928fbc42daabaf
       - name: Level_1
         guid: 1030d5edad19d540ae5469a22db135bb
         id: 1290008369
@@ -385,7 +418,7 @@ MonoBehaviour:
     m_lastTime: -8585627736892161436
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000001000000011000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
