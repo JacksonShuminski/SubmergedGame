@@ -5,7 +5,13 @@
 			<ChildrenList>
 				<MixingSession Name="Submerged" ID="{A72D9D9B-BBD3-4CDC-B65D-FFDBA503E5B9}">
 					<ObjectList>
+						<ObjectRef Name="TitlePlaylist" ID="{248C9D48-4505-43AC-B745-262D84BE55C3}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="Level1Playlist" ID="{719EDF5D-6F48-47B0-B937-541E96FF6C6A}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="Level2Playlist" ID="{187A73B9-2E0B-44D7-B2C6-95404D9F46E0}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
 						<ObjectRef Name="Level3Playlist" ID="{BE0ABBE6-4FF9-4EE3-AFE9-7160BE588261}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="GameOverPlaylist" ID="{2D320745-0622-47E5-A391-455450AB7E6A}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="VictoryPlaylist" ID="{ECF6B5D7-0B05-4275-85BC-7BD7A814C2DF}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="FinalFanfare" ID="{B83B562B-3845-48CD-BC79-BA26DE57CA3B}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
 					</ObjectList>
 				</MixingSession>
 			</ChildrenList>
