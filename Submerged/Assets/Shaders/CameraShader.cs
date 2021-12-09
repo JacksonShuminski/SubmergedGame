@@ -38,6 +38,27 @@ public class CameraShader : MonoBehaviour
     {
         mouse = Input.mousePosition;
         postMat = new Material(postMat);
+
+        try
+        {
+            Vector3 start = GameObject.Find("Start Node").transform.position;
+            Vector3 end = GameObject.Find("End Node").transform.position;
+            start = GetComponent<Camera>().WorldToScreenPoint(start);
+            postMat.SetInt("_StartX", (int)start.x);
+            postMat.SetInt("_StartY", (int)start.y);
+            end = GetComponent<Camera>().WorldToScreenPoint(end);
+            postMat.SetInt("_EndX", (int)end.x);
+            postMat.SetInt("_EndY", (int)end.y);
+        }
+        catch
+        {
+            postMat.SetInt("_StartX", -1);
+            postMat.SetInt("_StartY", -1);
+            postMat.SetInt("_EndX", -1);
+            postMat.SetInt("_EndY", -1);
+
+        }
+
     }
 
     // Update is called once per frame
@@ -52,7 +73,7 @@ public class CameraShader : MonoBehaviour
             }
             catch
             {
-                print("No player!");
+                //print("No player!");
             }
     }
 }

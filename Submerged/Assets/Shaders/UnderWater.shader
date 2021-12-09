@@ -7,6 +7,10 @@ Shader "Custom/UnderWater"
         _PlayerVertexY ("Player Location Y", Int) = 0
         _PointerX ("Pointer Location X", Int) = 0
         _PointerY ("Pointer Location Y", Int) = 0
+        _EndX ("End node X", Int) = 0
+        _EndY ("End node Y", Int) = 0
+        _StartX ("End node X", Int) = 0
+        _StartY ("End node Y", Int) = 0
     }
     SubShader
     {
@@ -47,6 +51,10 @@ Shader "Custom/UnderWater"
             int _PlayerVertexY;
             int _PointerX;
             int _PointerY;
+            int _EndX;
+            int _EndY;
+            int _StartX;
+            int _StartY;
 
             float2 WaveyDisp(float2 vertex) 
             {
@@ -101,6 +109,22 @@ Shader "Custom/UnderWater"
 
             }
 
+            float3 GetColoredLight(int x, int y, float2 vertex, float3 color)
+            {
+                if (x != -1)
+                {
+                    float2 toPixel = float2(vertex.x - x, vertex.y - (_MainTex_TexelSize.w - y));
+                    float distance = length(toPixel);
+                    float radius = 100;
+                    float brightness = max(0, radius - distance) / radius;
+                    return color * brightness;
+                }
+                else
+                {
+                    return float3(0, 0, 0);
+                }
+            }
+
             fixed4 frag(v2f i) : SV_Target
             {
                 float2 dispUV = i.uv;
@@ -116,9 +140,16 @@ Shader "Custom/UnderWater"
                 float playerLight = getPlayerLight(i.vertex);
                 float pointerLight = getPointerLight(i.vertex);
 
-                float light = max(max(baseLight, playerLight), pointerLight);
+                float3 startLight = GetColoredLight(_StartX, _StartY, i.vertex, float3(1, 0.25f, 0));
+                float3 endLight = GetColoredLight(_EndX, _EndY, i.vertex, float3(0, 1, 0));
 
-                col *= light;
+                float light = max(max(baseLight, playerLight), pointerLight);
+                half4 light3 = half4(max(max(endLight.x, startLight.x), light),
+                    max(max(endLight.y, startLight.y), light),
+                    max(max(endLight.z, startLight.z), light), 1);
+
+                if (_EndX != -1)
+                    col *= light3;
 
                 return col;
             }
