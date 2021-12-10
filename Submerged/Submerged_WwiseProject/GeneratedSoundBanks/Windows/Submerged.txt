@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	302641207	FinalVictory			\Default Work Unit\FinalVictory	
+	779278001	Death			\Default Work Unit\Death	
 	1776280627	GameWin			\Default Work Unit\GameWin	
 	2678230380	Level3			\Default Work Unit\Level3	
 	2678230381	Level2			\Default Work Unit\Level2	
@@ -24,6 +25,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	89550918	Title	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\Title_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\TitlePlaylist\Title\Title		7761664
 	219201972	FinalFanfare	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\FinalFanfare_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\FinalFanfare\FinalFanfare\FinalFanfare		2116864
 	337480534	Level3	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\Level3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Level3Playlist\Level3\Level3		12277504
+	469984597	Roblox-death-sound	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\Roblox-death-sound_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Sfx\Death\Roblox-death-sound		163836
 	512179721	GameOver	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\GameOver_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\GameOverPlaylist\GameOver\GameOver		423424
 	552997455	VictoryTheme	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\VictoryTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\VictoryPlaylist\VictoryTheme\VictoryTheme		1587664
 	897585219	Level2	D:\Profiles\zds8702\Submerged\Submerged\SubmergedGame\Submerged\Submerged_WwiseProject\.cache\Windows\SFX\Level2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game\Level2Playlist\Level2\Level2		10054864

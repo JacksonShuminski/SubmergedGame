@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: e7200b5d6c181849bff112ca44e80ba0
     GuidInternal: 
-    m_lastTime: -8585625371989597737
+    m_lastTime: -8585625108826179014
     List:
     - name: Submerged
       guid: b92a9138c89fca409415d64dafdc28c8
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 800944d06f7bab43bcedec958f208c35
     GuidInternal: 
-    m_lastTime: -8585625372001267974
+    m_lastTime: -8585625109049749415
     List:
+    - name: Death
+      guid: 1cb27d916a799d44a8d4e4660d14f13d
+      id: 779278001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 800944d06f7bab43bcedec958f208c35
+      - ElementName: Death
+        ObjectType: 3
+        guid: 1cb27d916a799d44a8d4e4660d14f13d
+      Path: Events\Default Work Unit\Death
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 1
     - name: FinalVictory
       guid: 958e0fb0382c4a4cbdd7bcd55d28826a
       id: 302641207
@@ -418,7 +435,7 @@ MonoBehaviour:
     m_lastTime: -8585625371989517972
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000ac000000ad000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

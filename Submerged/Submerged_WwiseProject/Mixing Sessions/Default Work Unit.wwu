@@ -12,6 +12,7 @@
 						<ObjectRef Name="GameOverPlaylist" ID="{2D320745-0622-47E5-A391-455450AB7E6A}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
 						<ObjectRef Name="VictoryPlaylist" ID="{ECF6B5D7-0B05-4275-85BC-7BD7A814C2DF}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
 						<ObjectRef Name="FinalFanfare" ID="{B83B562B-3845-48CD-BC79-BA26DE57CA3B}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
+						<ObjectRef Name="Death" ID="{4C096B95-B47D-48AC-99B0-3D111D53B16F}" WorkUnitID="{93694B8C-E753-4868-856F-3C1958C12CB3}"/>
 					</ObjectList>
 				</MixingSession>
 			</ChildrenList>
