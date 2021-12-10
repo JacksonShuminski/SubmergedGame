@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/Scenes/levels/SaumilLevel01.unity
     guid: 722bedfd11a3fa24fa66530f1c58d1af
   - enabled: 1
+    path: Assets/Scenes/levels/NoahLevel02.unity
+    guid: 129f824b755d80a4085d286a2976d63a
+  - enabled: 1
     path: Assets/Scenes/GameLoop/EndScene.unity
     guid: 319f0b219fc5dbd459fece2e598bddc6
   m_configObjects: {}
