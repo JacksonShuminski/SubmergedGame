@@ -13,6 +13,7 @@ public class KillPlayer : MonoBehaviour
         {
             Destroy(collision.gameObject);
             spawner.SpawnPlayer();
+            AkSoundEngine.PostEvent("Death", gameObject);
         }
     }
 }

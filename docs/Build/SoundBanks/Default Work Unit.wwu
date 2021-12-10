@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D0B20E7-186C-4918-BFF1-12CA44E80BA0}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{5D0B20E7-186C-4918-BFF1-12CA44E80BA0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Submerged" ID="{38912AB9-9FC8-40CA-9415-D64DAFDC28C8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GameWin" ID="{881CF320-2457-408D-803E-F646A2C1F0E4}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level3" ID="{46AD4E03-634C-4256-A2ED-E7967A74A70B}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Death" ID="{917DB21C-796A-449D-A8D4-E4660D14F13D}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level2" ID="{A295AFEA-1B78-4771-B8A0-E5A9250C386B}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FinalVictory" ID="{B00F8E95-2C38-4C4A-BDD7-BCD55D28826A}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Title" ID="{86F10D65-AB2E-4DAE-9072-1FC191E6F6F7}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameOver" ID="{15947CAD-A986-4EA1-9969-45CC6D474D1C}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level1" ID="{525A4F56-AC16-4F2E-AF06-73E22156D7E6}" WorkUnitID="{D0440980-7B6F-43AB-BCED-EC958F208C35}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

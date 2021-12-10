@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DEATH = 779278001U;
         static const AkUniqueID FINALVICTORY = 302641207U;
         static const AkUniqueID GAMEOVER = 4158285989U;
         static const AkUniqueID GAMEWIN = 1776280627U;

@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/levels/NoahLevel01.unity
     guid: e187ae47907b72343a58d7a8a92ff7b2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AudioLevels/TempGameOver.unity
     guid: 4de5fc71750ba5b4b8a7650941b39e82
   - enabled: 1
