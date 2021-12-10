@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: e7200b5d6c181849bff112ca44e80ba0
     GuidInternal: 
-    m_lastTime: -8585625108826179014
+    m_lastTime: -8585625071778578391
     List:
     - name: Submerged
       guid: b92a9138c89fca409415d64dafdc28c8
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 800944d06f7bab43bcedec958f208c35
     GuidInternal: 
-    m_lastTime: -8585625067172341080
+    m_lastTime: -8585625071788935854
     List:
     - name: Death
       guid: 1cb27d916a799d44a8d4e4660d14f13d
@@ -435,7 +435,7 @@ MonoBehaviour:
     m_lastTime: -8585625116058340895
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
