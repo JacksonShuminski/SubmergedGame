@@ -12,8 +12,8 @@ public class KillPlayer : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
-            spawner.SpawnPlayer();
             AkSoundEngine.PostEvent("Death", gameObject);
+            spawner.SpawnPlayer();
         }
     }
 }
