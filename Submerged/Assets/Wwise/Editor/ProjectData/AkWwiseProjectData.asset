@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 800944d06f7bab43bcedec958f208c35
     GuidInternal: 
-    m_lastTime: -8585625071788935854
+    m_lastTime: -8585625067172341080
     List:
     - name: Death
       guid: 1cb27d916a799d44a8d4e4660d14f13d
@@ -435,7 +435,7 @@ MonoBehaviour:
     m_lastTime: -8585625116058340895
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
