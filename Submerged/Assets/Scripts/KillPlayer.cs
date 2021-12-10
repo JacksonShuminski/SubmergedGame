@@ -8,9 +8,10 @@ public class KillPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("HIT!");
+        
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("HIT!");
             Destroy(collision.gameObject);
             AkSoundEngine.PostEvent("Death", gameObject);
             spawner.SpawnPlayer();
